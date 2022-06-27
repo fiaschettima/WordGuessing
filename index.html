@@ -4,24 +4,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/style/style.css">
     <title>Word Guessing</title>
 </head>
 <body>
-    <header>
-        <h1>Fill in the blanks</h1>
+    <header class="game-heading">
+        <h1>Fill in the Blanks</h1>
         <button>Start Game</button>
     </header>
+    <div class="gameInfo">
     <main id="game-container">
         <h4>Enter a key to guess the letter</h4>
         <span id="blank-word"></span>
         <p id="guessed-letters"></p>
     </main>
     <section id="gameConditions">
-        <h2></h2>
-        <h3></h3>
-        <h3></h3>
+        <h2 class="conditionsTitle">Time</h2>
+        <h3 class="conditionsTitle">wins</h3>
+        <h3 class="conditionsTitle">losses</h3>
     </section>
+    </div>
     <section class="display-none"></section>
 </body>
 </html>
-

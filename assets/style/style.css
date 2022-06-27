@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Solway&display=swap');
+:root{
+    --mainColor1: #1C2321;
+    --mainColor2: #7D98A1;
+    --mainColor3: #5E6572;
+    --mainColor4: #A9B4C2;
+    --mainColor5: #EEF1EF;
+
+}
+*{
+    box-sizing: border-box;
+    font-family: 'Solway', serif;
+    color: var(--mainColor1);
+}
+body{
+    background-color: var(--mainColor3);
+}
+.game-heading{
+    border: 1px solid black;
+    width: 90vw;
+    height: fit-content;
+    text-align: center;
+    margin: auto;
+    padding: 2em;
+    background: linear-gradient(var(--mainColor2) , var(--mainColor4));
+    box-shadow: 0 0 5px var(--mainColor5);
+
+}
+.game-heading h1{
+    text-decoration: underline;
+    padding: 1em;
+
+}
+.game-heading button{
+    padding: 1em;
+    background: none;
+    border: none;
+    font-size: 1.5em;
+    cursor: pointer;
+    text-shadow:
+    0 0 5px var(--mainColor5),
+    0 0 10px var(--mainColor2);
+    
+}
+.game-heading button:hover{
+    text-shadow:
+    0 0 10px var(--mainColor2),
+    0 0 30px var(--mainColor1);
+}
+
+.gameInfo{
+    width: 90vw;
+    margin-top: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    height: fit-content;
+    overflow: hidden;
+
+
+}
+#game-container{
+    border: 1px solid black;
+    margin-top: 1em;
+    width: 50vw;
+    height: 60vw;
+    float: left;
+    text-align: center;
+}
+#gameConditions{
+    width: 30vw;
+    height: 60vw;
+    border: 1px solid black;
+    float: right;
+    margin-top: 1em;
+    text-align: left;
+    padding-left: 1vw;
+}
+.conditionsTitle{
+    padding-top: 2em;
+
+}
